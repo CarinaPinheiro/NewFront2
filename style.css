@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins'
+  }
+
+
+
+.tex_header{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  }
+
+.main{
+  width: 100%;
+  background-color: #F1F0EB;
+}
+@media(max-width: 770px)
+{
+    .imagem_section{width: 80vw}
+}
+
+@media(max-width: 565px)
+{
+  .imagem_section{width: 100%}
+}
+
+  .formulario
+{
+  background-image: url(./Imagens/reviews-de-produtos.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 45rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.formulario h1
+  {    
+    height: 2.625rem;
+    font-weight: 900;
+    font-size: 3.25rem;
+    line-height: 2.625rem;
+  }
+
+@media (max-width:700px)
+{
+  .formulario h1
+  { 
+    font-size: 2.25rem;
+  }
+}
+
+
+@media (max-width:700px)
+{
+  .formulario h1
+  {
+    font-size: 1.25rem;
+  }
+}
+
+
+.div_formulario
+{
+  margin-top: 4%;
+  width: 50%;
+  height: 30rem;
+  background-color: #FF69B4;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  padding: 3% 2%;
+  flex-wrap: wrap;
+  gap: 1rem;
+  position: relative;
+}
+
+.div_form input  
+{
+  width: 100%;
+  height: 4rem;
+  border-radius: 0.625rem 0.625rem 0.625rem 0.625rem ;
+}
+
+.error
+{
+  background-color: rgb(220,20,60);
+}
+
+
+.erro_mensagem
+{ 
+  font-size: 1rem;
+}
+
+.div_form .input_descriÃ§ao
+{
+  height: 10rem;
+}
+
+.div_form input::placeholder
+{
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 2%;
+  color: rgb(75,0,130);
+}
+
+
+.botonForm
+{
+  position: absolute;
+  bottom: 5%;
+  left: 45%;
+  min-width: 4rem;
+}
+
+.card_newreview{
+
+background-color: rgb(255,192,203);
+width: 18rem;
+margin: 1%;
+border-radius: 5%;
+
+}
+
+.newreview-img-top
+{
+  max-width: 100%;
+  max-height: 60%;
+  color: #FFC0CB;
+}
+
+
+.text-description
+{
+  padding: 3%;
+}

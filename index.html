@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=./style.css>
+    <title>Check Point 1</title>
+</head>
+<body>
+<header> <div class="cabecalho">
+            
+            
+    <h1>Cadastro de review</h1> <h2>ANALIZE DE PRODUTOS</h2>
+
+
+</div>
+</header>
+    
+
+<section class="main">
+     
+    <div class="imagem_section">
+</section>
+
+
+
+<section class="formulario">
+    <h1 class="tex_formulario">Faça seu review aqui</h1>
+    
+    <div class="div_formulario">
+
+        <div class="div_form">
+
+
+            <input 
+            required
+            name="nome"
+            minlength="4"  
+            maxlength="25"
+            type="text" placeholder="Insira seu nome"
+            id="input_nome" >
+    
+           <small class="erro_mensagem"></small>
+            
+        </div>
+    
+        <div class="div_form">
+    
+            <input
+            
+            required
+            minlength="2" 
+            name="tituloreview"
+            type="text"
+            placeholder="Titulo do Review do Produto" 
+           id="input_tituloreview">
+    
+           <small class="erro_mensagem"></small>
+        </div>
+    
+        <div class="div_form">
+    
+            <input 
+            required
+            minlength="2"
+            type="text"
+             name="IMG" 
+             id="input_imagem"
+              placeholder="Inserir link url da imagem">
+    
+           <small class="erro_mensagem"></small>
+    
+        </div>
+
+        <div class="div_form">
+
+            <input 
+            name="descricao" 
+            required
+            minlength="4"  
+            maxlength="25"
+            type="text" 
+            id="input_descricao" placeholder="Escreva sua review o mais completa possivel ">
+           <small class="erro_mensagem"></small>
+        
+        </div>
+        
+        <button class="botonForm">Publicar</button>
+
+
+    </div>
+ 
+
+  
+
+
+    
+   
+
+
+    
+    
+
+
+
+</section>
+
+
+<section id="section_review">
+
+
+
+
+</section>
+
+
+
+<script src="./main.js"></script>    
+</body>
+</html>
